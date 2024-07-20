@@ -5,17 +5,19 @@ const content = [
     {
         img: img1,
         title: 'Introduce Digital Marketing',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos repellendus commodi sit quis delectus non quo sint temporibus, ab beatae?'
+        description: 'Learn the essentials of digital marketing and boost your online presence with expert strategies.'
     },
     {
         img: img2,
         title: 'Data Science 101',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos repellendus commodi sit quis delectus non quo sint temporibus, ab beatae?'
+        description: 'Dive into the fundamentals of data science and start your journey to becoming a data expert.'
+
     },
     {
         img: img3,
         title: 'Implement Design Thinking in UX Research',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos repellendus commodi sit quis delectus non quo sint temporibus, ab beatae?'
+description: 'Learn how to apply design thinking principles to enhance user experience research and drive innovative solutions.'
+
     }
 ]
 
@@ -25,7 +27,7 @@ export default function Services() {
         <div className='flex flex-col items-center gap-8'>
             <div className='flex flex-col md:flex-row justify-between gap-6'>
                 {content.map((c, i) => (
-                    <div key={i + 1} className='bg-purple-600 p-6 rounded-lg flex flex-col gap-2 justify-between'>
+                    <div key={i + 1} className='from-purple-700 to-purple-600 bg-gradient-to-t p-6 basis-1/3 relative rounded-lg flex flex-col gap-2 justify-between'>
                         <div className=''>
                             <img src={c.img} alt="" />
                         </div>
