@@ -1,5 +1,5 @@
 import React from 'react'
-import { infinity, bgHeader, certificate, expert, headerImg, img1, learnImg, playstore, testi } from '../assets/image'
+import { infinity, certificate, expert } from '../assets/image'
 
 const service = [
     {

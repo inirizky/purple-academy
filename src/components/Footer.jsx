@@ -47,7 +47,7 @@ export default function Footer() {
   return (
     <footer className='bg-zinc-200 px-8 md:px-24 py-20'>
       <div className='flex flex-col gap-8 lg:flex-row justify-between'>
-        <div className='space-y-8  lg:w-1/3'>
+        <div className='space-y-4 lg:space-y-8  lg:w-1/3'>
           <h2 className='text-2xl font-bold tracking-wider uppercase'>Purple Academy</h2>
           <h3 className='font-semibold'>PURPLE Office</h3>
           <div className='flex gap-2 items-center'>
@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
 
 
-          <div className='flex item-center justify-between'>
+          <div className='flex item-center flex-wrap gap-8 justify-between'>
             <div className='space-y-3'>
               <h3 className='font-semibold'>Program PURPLE</h3>
               <ul className='space-y-1'>

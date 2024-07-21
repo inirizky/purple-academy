@@ -1,5 +1,5 @@
 import React from 'react'
-import { infinity, bgHeader, certificate, expert, headerImg, img1, learnImg, playstore, testi } from '../assets/image'
+import { testi } from '../assets/image'
 
 
 export default function Testimonials() {
@@ -13,12 +13,12 @@ export default function Testimonials() {
 
           <div className='shadow-md ring-1 ring-purple-100 rounded-md p-6 flex gap-4'>
             <div className='w-20 h-20 overflow-hidden rounded-full flex-shrink-0'>
-              <img src={testi} className='object-cover w-full h-full' alt="Regita Cahya" />
+              <img src={testi} className='object-cover w-full h-full' alt="Jeon Mido" />
             </div>
 
 
             <div>
-              <h3 className='text-lg font-bold'>Regita Cahya</h3>
+              <h3 className='text-lg font-bold'>Jeon Mido</h3>
               <p className='font-normal text-zinc-500'>"The courses provided me with practical skills and knowledge that have been invaluable in my career."</p>
             </div>
           </div>

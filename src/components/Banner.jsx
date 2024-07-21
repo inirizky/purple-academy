@@ -1,5 +1,5 @@
 import React from 'react'
-import { infinity, bgHeader, certificate, expert, headerImg, img1, learnImg, playstore, testi } from '../assets/image'
+import { learnImg } from '../assets/image'
 
 export default function Banner() {
     return (
