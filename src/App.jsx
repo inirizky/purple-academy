@@ -42,7 +42,7 @@ function App() {
       </div>
 
 
-      <div ref={services} className='py-28flex flex-col justify-center lg:items-center from-zinc-200 to-zinc-100 from-10% bg-gradient-to-t space-y-8 lg:space-y-16'>
+      <div ref={services} className='py-28 flex flex-col justify-center lg:items-center from-zinc-200 to-zinc-100 from-10% bg-gradient-to-t space-y-8 lg:space-y-16'>
        <Services />
       </div>
 
